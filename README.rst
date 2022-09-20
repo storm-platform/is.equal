@@ -32,7 +32,7 @@
 About
 =====
 
-Tool to check if a scientific experiment was reproduced
+Tool to check if a scientific experiment was reproduced correctly.
 
 Usage
 -----

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "is-equal"
 version = "0.1.0"
-description = "Tool to check if a scientific experiment was reproduced"
+description = "Tool to check if a scientific experiment was reproduced correctly."
 authors = ["Felipe Carlos <efelipecarlos@gmail.com>"]
 license = "MIT"
 readme = "README.md"
