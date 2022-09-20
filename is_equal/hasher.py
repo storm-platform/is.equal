@@ -46,7 +46,7 @@ def hash_dir(directory_path: str, algorithm: str, followlinks=False) -> Director
             filepath = os.path.join(root, fname)
             filehash = hasher.hash_file(filepath)
 
-            hashes.append(dict(fname=filehash))
+            hashes.append(dict(name=fname, checksum=filehash))
 
     return DirectoryHash(
         name=os.path.basename(directory_path),

@@ -19,7 +19,7 @@ def is_equal(directory_one: str, directory_two: str, algorithm: str = "md5", **k
     directory_two_hash = hash_dir(directory_two, algorithm, **kwargs)
 
     return (
-        directory_one_hash.checksum == directory_two,
+        directory_one_hash.checksum == directory_two_hash.checksum,
         directory_one_hash,
         directory_two_hash,
     )
