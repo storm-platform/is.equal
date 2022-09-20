@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "is-equal"
+version = "0.1.0"
+description = "Tool to check if a scientific experiment was reproduced"
+authors = ["Felipe Carlos <efelipecarlos@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "is"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.0"
+checksumdir = "^1.2.0"
+storm-hasher = {git = "https://github.com/storm-platform/storm-hasher", rev = "v0.1.0"}
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
