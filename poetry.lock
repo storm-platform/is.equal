@@ -149,8 +149,8 @@ tests = ["check-manifest (>=0.40)", "coverage (>=4.5)", "coveralls (>=1.8)", "is
 
 [package.source]
 type = "git"
-url = "https://github.com/storm-platform/storm-hasher"
-reference = "v0.1.0"
+url = "https://github.com/storm-platform/storm-hasher.git"
+reference = "master"
 resolved_reference = "a583a6f6a4450c3c2ddd44d4454f1eb44db97cc6"
 
 [[package]]
@@ -184,7 +184,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "e993ef5dca74b4d3e38c73406e3ab6735b537d8f2cc15aa93a312d9ae2384ffc"
+content-hash = "f106174f6274444140b132cb15bc0e550a866c86c86114f910cde267b552aa69"
 
 [metadata.files]
 black = [

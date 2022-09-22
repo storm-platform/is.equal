@@ -11,7 +11,7 @@ packages = [{include = "is_equal"}]
 python = "^3.8"
 pandas = "^1.5.0"
 checksumdir = "^1.2.0"
-storm-hasher = {git = "https://github.com/storm-platform/storm-hasher", rev = "v0.1.0"}
+storm-hasher = { git = "https://github.com/storm-platform/storm-hasher.git", rev = "master"}
 
 
 [tool.poetry.group.dev.dependencies]
